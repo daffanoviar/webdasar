@@ -290,7 +290,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
             <?php endif; ?>
 
-            <div class="form-floating"> <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username" required><label for="floatingInput">Email address</label> </div>
+            <div class="form-floating"> <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Username" required><label for="floatingInput">Username</label> </div>
             <div class="form-floating"> <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password" required> <label for="floatingPassword">Password</label> </div>
             <div class="form-check text-start my-3"> <input class="form-check-input" type="checkbox" value="remember-me" id="checkDefault"> <label class="form-check-label" for="checkDefault">
                     Remember me
