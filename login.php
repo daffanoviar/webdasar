@@ -42,7 +42,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     </head>
     <body>
         <form action="login.php" method="post">
-         <table>
+        <table>
             <tr>
                 <td colspan="2" style="text-align: center;" >LOGIN</td>
             </tr>
